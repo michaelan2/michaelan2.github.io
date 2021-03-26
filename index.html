@@ -1,1 +1,85 @@
-Hello World
+<!DOCTYPE html>
+<!-- https://google.github.io/styleguide/htmlcssguide.html -->
+
+<html>
+<head>
+  <!-- This is where the head is! -->
+  <link href="base.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Catamaran" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Mulish" rel="stylesheet">
+</head>
+<body>
+  <header class="header">
+    <h2 class="header-title">Michael An</h3>
+    <ul class="header-links"> 
+      <li><a href="https://github.com/michaelan2">Github</a></li>
+      <li><a href="https://linkedin.com/in/michael-an">LinkedIn</a></li>
+      <li><a href="mailto:michaelan2@g.ucla.edu">Contact</a></li>
+    </ul>
+  </header>
+
+  <div class="container row">
+    <div class="container intro">
+      <div class="intro-lead">
+        <h2> Hi! I'm </h2>
+      </div>
+      <div class="intro-main">
+        <h1> Michael An </h1>
+        <div class="intro-bullets">
+          <div>— current CS undergrad at UCLA</div>
+          <div>— incoming SDE intern at Amazon</div>
+          <div>— past student researcher at Stanford School of Medicine</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container col body">
+    <h1> Projects </h1>
+
+    <div class="grid-container">
+      <div class="grid-content picture-container">
+        <img src="./content/bruinwalk.png" alt="bruinwalk redesign" />
+      </div>
+      <div class="grid-content text-container">
+        <h2> Bruinwalk Redesign </h2>
+        <p> <a href="https://https://bruinwalk.com/"> Bruinwalk </a> is UCLA's most beloved student review site, for anything from classes to apartments in Westwood. I'm working with an incredible team of student designers and developers on a site-wide redesign task to modernize our user experience. </p>
+      </div>  
+    </div>
+
+    <br>
+    <br>
+
+    <div class="grid-container">
+      <div class="grid-content picture-container">
+        <img src="./content/LPC.png" alt="oscillation graph" />
+      </div>
+      <div class="grid-content text-container"> 
+        <h2> Stress Tracking through Touchpad Usage </h2>
+        <p> At Stanford's Pervasive Wellbeing Technology Lab, we were developing scalable, non-invasive methods for longitudinal health tracking. My project last summer built a novel method for tracking stress levels in laptop users through their touchpad strokes. By treating the user's motions as damped oscillations, we could extrapolate muscle tension in the arm and thus indirectly measure stress. <a href="https://www.jmir.org/2020/10/e22743/"> See our publication! </a></p>
+        
+      </div>
+    </div>
+
+    <h1> Contact </h1>
+    <div> You can find me at michaelan2 [at] g [dot] ucla [dot] edu. </div>
+  </div>
+
+  <!--
+  <h1> Other Fun Experiences </h1>
+  <div class="container row">
+    <div class="orange border-box">
+      <h2> ECE147: Deep Neural Networks </h2>
+      <p> Implemented a FBSCP-inspired shallow CNN for EEG classification. This shallow net didn't only beat our deeper models, but also beat the previous class record for highest accuracy! It turns out that a little domain knowledge goes a lot further than ML expertise. </p>
+    </div>
+    <div class="orange border-box">
+      <h2> CS145: Data Mining </h2>
+      <p> In a project to build a predictor for number of active COVID cases in the US, we found that despite our best attempts at preprocessing, the data was so dirty that our baseline per-state linear fitting outperformed more sophisticated epidemiological models like SIR and our neural nets. </p>
+    </div>
+    <div class="orange border-box"> This is a 200x200 orange box 3! </div>
+  </div>
+  -->
+
+  
+</body>
+</html>
